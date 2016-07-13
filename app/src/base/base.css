@@ -1,0 +1,52 @@
+*{
+	box-sizing:border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+dl,
+dd{
+	margin: 0;
+}
+body{
+	font-family: arial,'微软雅黑';
+	font-size: 12px;
+	line-height: 1;
+	color: #333;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table; 
+}
+
+.clearfix:after {
+  clear: both; 
+}
+
+.clearfix {
+  zoom: 1; 
+}
+.hide{
+	display: none !important;
+}
